@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<com.droideley.components.ActionBarWidget
+		xmlns:app="http://schemas.android.com/apk/res/android" android:id="@+id/details_bar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		app:title="Document details" />
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:id="@+id/scrollView1"
+		android:background="#ffffff" android:paddingTop="2dp" android:paddingLeft="4dp">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:id="@+id/linearLayout1"
+			android:layout_height="match_parent">
+			<TextView android:id="@+id/detailName" android:text="Title"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:textSize="16sp" android:textStyle="bold" android:textColor="@color/dred" />
+			<TextView android:id="@+id/detailAuthors" android:text="Authors"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:textColor="@color/black" />
+			<TextView android:id="@+id/detailYear" android:text="Year"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:textColor="@color/black" />
+			<TextView android:id="@+id/detailOutlet" android:text=""
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:textColor="@color/black" android:paddingBottom="2dp"/>	
+			<TextView android:id="@+id/detailAbstract" android:text="Abstract"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:textColor="@color/black" />
+			<TextView android:id="@+id/mendeleyUrl" android:layout_width="match_parent" 
+				android:layout_height="wrap_content" android:textColor="@color/black"/>
+			<TextView android:id="@+id/url" android:layout_width="match_parent" 
+				android:layout_height="wrap_content" android:textColor="@color/black"/>				
+			<LinearLayout android:id="@+id/files" android:layout_width="match_parent" 
+				android:orientation="horizontal" android:layout_height="wrap_content" />	
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
+

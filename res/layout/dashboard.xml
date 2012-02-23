@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/volny.petr.droideley"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:id="@+id/dashboard_layout">
+
+	<com.droideley.components.ActionBarWidget xmlns:app="http://schemas.android.com/apk/res/android" android:id="@+id/dashboard_bar" 
+		android:layout_width="fill_parent" android:layout_height="wrap_content"		
+		app:title="Dashboard" />
+<!--  		
+	<LinearLayout android:id="@+id/action_bar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@drawable/actionbar_gradient" android:orientation="horizontal">
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/small_mendeley" />
+		<TextView android:textSize="18dp" android:textColor="#ffffff"
+			android:text="Dashboard" android:layout_weight="1" android:gravity="center_vertical"
+			android:layout_width="wrap_content" android:layout_height="match_parent" 
+			android:paddingLeft="20dp" />
+		<ImageView android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:gravity="center_vertical"
+			android:src="@drawable/search"
+			android:paddingRight="10dp" />
+	</LinearLayout>
+-->	
+
+
+	<com.droideley.components.DashboardLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="match_parent"
+		android:background="#ffffff" android:id="@+id/dashboard_widget">
+
+		<Button android:id="@+id/dash_btn_alldocs" style="@style/dashboard_btn"
+			android:text="@string/all_documents" android:drawableTop="@drawable/alldocs_btn_selector" />
+		<Button android:id="@+id/dash_btn_folders" style="@style/dashboard_btn"
+			android:text="@string/folders" android:drawableTop="@drawable/folders_btn_selector" />
+		<Button android:id="@+id/dash_btn_authors" style="@style/dashboard_btn"
+			android:text="@string/authors" android:drawableTop="@drawable/authors_btn_selector" />
+		<Button android:id="@+id/dash_btn_tags" style="@style/dashboard_btn"
+			android:text="@string/tags" android:drawableTop="@drawable/tags_btn_selector" />
+		<Button android:id="@+id/dash_btn_searchhub" style="@style/dashboard_btn"
+			android:text="@string/searchHub" android:drawableTop="@drawable/searchhub_btn_selector" /> 				 			
+		<Button android:id="@+id/dash_btn_groups" style="@style/dashboard_btn"
+			android:text="@string/groups" android:drawableTop="@drawable/groups_btn_selector" />		
+<!--			
+		<Button android:id="@+id/dash_btn_contacts" style="@style/dashboard_btn"
+			android:text="@string/contacts" android:drawableTop="@drawable/contacts_btn_selector" />
+-->
+	</com.droideley.components.DashboardLayout>
+
+</LinearLayout>

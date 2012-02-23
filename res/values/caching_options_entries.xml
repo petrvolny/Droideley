@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="caching_options">
+    <item>Download fresh file every time (without storing it)</item>        
+    <item>Store files to local storage</item> 
+    <item>Store files to external storage</item>             
+    <item>Find PDFs on sd card</item>
+    </string-array>
+    <string-array name="caching_options_values">
+    <item>0</item>    
+    <item>1</item>
+    <item>2</item>     
+    <item>3</item>
+    </string-array>
+    
+</resources>

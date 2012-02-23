@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Droideley</string>
+    <string name="synchronize">Sync</string>
+    <string name="findRelated">Find related</string>
+    <string name="newDocument">New document</string>
+    <string name="moveToCollection">Move to collection</string>
+    <string name="editDocument">Edit Document</string>
+    <string name="all_documents">All Docs</string>
+    <string name="folders">Folders</string>
+    <string name="authors">Authors</string>
+    <string name="tags">Tags</string>
+    <string name="groups">Groups</string>
+    <string name="contacts">Contacts</string>
+    <string name="login">Log In</string>
+    <color name="black">#000000</color>
+    <color name="dred">#800000</color>
+    <color name="mred">#a41723</color>
+    <color name="list_bg">#FFFFFF</color>
+    <string name="find_pdfs">Find pdfs</string>
+    <string name="searchHub">SearchHub</string>
+</resources>

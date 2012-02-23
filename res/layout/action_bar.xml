@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/action_bar" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:background="@drawable/actionbar_gradient"
+	android:orientation="horizontal">
+	<ImageButton android:id="@+id/barHome"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:src="@drawable/mendeley_btn_selector" android:background="@null" />
+	<TextView android:id="@+id/barTitle" android:textSize="17dp"
+		android:textColor="#ffffff" android:layout_weight="1" android:gravity="center_vertical"
+		android:layout_width="wrap_content" android:layout_height="fill_parent"
+		android:paddingLeft="5dp" />
+	<ImageButton android:id="@+id/barVoice" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:gravity="center_vertical"
+		android:src="@drawable/voice_btn_selector"
+		android:background="@null" />
+	<ImageButton android:id="@+id/barShare" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:gravity="center_vertical"
+		android:src="@drawable/share_btn_selector"
+		android:background="@null" />
+	<ImageButton android:id="@+id/barSearch" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:gravity="center_vertical"
+		android:src="@drawable/search_btn_selector"
+		android:background="@null" />
+	<ImageButton android:id="@+id/barRelated" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:gravity="center_vertical"
+		android:src="@drawable/related_btn_selector"
+		android:background="@null" />
+</LinearLayout>

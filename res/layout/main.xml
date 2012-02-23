@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main_layout" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical"
+	android:background="#ffffff">
+
+	<TextView android:id="@+id/main_logo" android:textColor="@color/mred"
+		android:layout_width="fill_parent" android:textSize="50dp"
+		android:text="Droideley" android:gravity="center"
+		android:layout_gravity="center" android:layout_height="wrap_content"
+		android:layout_marginTop="50dp" />
+
+	<TextView android:id="@+id/powered" android:textColor="@color/mred"
+		android:layout_width="fill_parent" android:textSize="15dp"
+		android:text="powered by" android:gravity="center"
+		android:layout_height="wrap_content" />
+	<ImageView android:id="@+id/imageView1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/big_mendeley"
+		android:layout_gravity="center"></ImageView>
+	<TextView android:id="@+id/mainStatus" android:textColor="@color/mred"
+		android:layout_width="fill_parent" android:textSize="15dp"
+		android:text="Starting..." android:gravity="center"
+		android:layout_height="wrap_content" />
+<!--  		
+	<ProgressBar android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/mainProgressbar" 		
+    	android:max="100" />
+-->
+</LinearLayout>
