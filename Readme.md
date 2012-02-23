@@ -1,10 +1,14 @@
 Droideley - The Unofficial Mendeley Android Client
 ==================================================
 Droideley is an Android client for [Mendeley](http://www.mendeley.com/) (ultimate scientific reference manager)
-It uses [Mendeley OAPI](http://dev.mendeley.com/) to acces user data.
 
-Blog: https://droideley.posterous.com
-Twitter: http://www.twitter.com/Droideley
+It uses [Mendeley OAPI](http://dev.mendeley.com/) to access user data.
+
+### Links
+* [Android Market](https://market.android.com/details?id=com.droideley)
+* [Blog](https://droideley.posterous.com)
+* [Twitter](http://www.twitter.com/Droideley)
+
 License
 -------
 Originally developed by Petr (severin) Volny. The whole project is released
