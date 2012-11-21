@@ -31,8 +31,8 @@ import android.util.Log;
 
 public class MendeleyAuthTools {
 
-	public static final String CONSUMER_KEY = "af19d5f600c2192d3a41556785cc71a804d36cddb";
-	public static final String CONSUMER_SECRET = "e49565ce855163aaae575c55f16f37d9";
+	public static final String CONSUMER_KEY = "";
+	public static final String CONSUMER_SECRET = "";
 	public static String ACCESS_KEY = null;
 	public static String ACCESS_SECRET = null;
 	public static final String REQUEST_URL = "http://www.mendeley.com/oauth/request_token/";
